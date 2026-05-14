@@ -1,0 +1,169 @@
+<!-- Nombre: Juliana Volveras Amaya -->
+<!-- Grupo: 213025_14 -->
+<!-- Curso: Programación web -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Dancheong — El sistema de decoración con cinco colores tradicionales aplicado en la madera de templos y palacios coreanos." />
+  <title>Dancheong — Ecos de la Arquitectura Coreana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header role="banner">
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <nav class="nav-principal" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="palacios.html">Palacios</a>
+      <a href="templos.html">Templos</a>
+      <a href="hanok.html">Hanok</a>
+      <a href="dancheong.html" class="activo" aria-current="page">Dancheong</a>
+    </nav>
+
+    <div class="hero-sub" style="background-image: url('imagenes/pexels-wwarby-19716548.jpg');">
+      <div class="hero-sub-contenido">
+        <h1>Dancheong</h1>
+        <p>El lenguaje visual de cinco colores de la arquitectura coreana</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Ruta de navegación">
+    <div class="contenedor">
+      <a href="index.html">Inicio</a>
+      <span aria-hidden="true">›</span>
+      <em>Dancheong</em>
+    </div>
+  </nav>
+
+  <main id="contenido-principal">
+
+    <!-- INTRODUCCIÓN -->
+    <section class="seccion" aria-labelledby="titulo-intro-dancheong">
+      <div class="contenedor estrecho">
+        <h2 class="titulo-seccion" id="titulo-intro-dancheong" style="color: var(--morado);">¿Qué es el Dancheong?</h2>
+        <p class="intro">
+          El Dancheong es el sistema decorativo tradicional coreano aplicado sobre la madera de templos,
+          palacios y estructuras ceremoniales. Utiliza cinco colores primarios azul, rojo, amarillo,
+          blanco y negro basados en la filosofía del Obangsaek y el pensamiento cosmológico del Asia Oriental.
+        </p>
+        <p class="intro">
+          Más allá de la estética, el Dancheong cumple funciones prácticas: protege la madera de la humedad,
+          los insectos y el deterioro, al tiempo que comunica el rango y la importancia de cada edificio.
+        </p>
+      </div>
+    </section>
+
+    <!-- PALETA DE COLORES -->
+    <section class="seccion fondo-alt" aria-labelledby="titulo-paleta">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-paleta" style="color: var(--morado);">Los Cinco Colores Tradicionales</h2>
+        <p class="intro">Cada color del Dancheong representa un punto cardinal, un elemento natural y un valor filosófico.</p>
+
+        <div class="paleta-colores" role="list" aria-label="Paleta de colores Obangsaek">
+
+          <div class="color-item" role="listitem">
+            <div class="color-muestra" style="background-color: #2979FF;" aria-hidden="true"></div>
+            <p>Azul</p>
+          </div>
+          <div class="color-item" role="listitem">
+            <div class="color-muestra" style="background-color: #E10600;" aria-hidden="true"></div>
+            <p>Rojo</p>
+          </div>
+          <div class="color-item" role="listitem">
+            <div class="color-muestra" style="background-color: #FFD60A;" aria-hidden="true"></div>
+            <p>Amarillo</p>
+          </div>
+          <div class="color-item" role="listitem">
+            <div class="color-muestra" style="background-color: #f5f1e8; border-color: #555;" aria-hidden="true"></div>
+            <p>Blanco</p>
+          </div>
+          <div class="color-item" role="listitem">
+            <div class="color-muestra" style="background-color: #1a1a1a;" aria-hidden="true"></div>
+            <p>Negro</p>
+          </div>
+
+        </div>
+
+        <!-- SIMBOLISMO DETALLADO -->
+        <div class="simbolismo" aria-labelledby="titulo-simbolismo">
+          <h3 id="titulo-simbolismo">Simbolismo de cada color</h3>
+          <ul class="lista-decorada">
+            <li>
+              <strong>Azul (Cheong):</strong> Representa el Este, el dragón azul, la primavera y el crecimiento.
+              Simboliza vida, esperanza y vitalidad.
+            </li>
+            <li>
+              <strong>Rojo (Jeok):</strong> Representa el Sur, el fénix rojo y el verano.
+              Es el color de la protección contra los malos espíritus y la energía positiva.
+            </li>
+            <li>
+              <strong>Amarillo (Hwang):</strong> Representa el Centro y la tierra.
+              Simboliza el equilibrio del universo y está reservado para edificios imperiales.
+            </li>
+            <li>
+              <strong>Blanco (Baek):</strong> Representa el Oeste, el tigre blanco y el otoño.
+              Simboliza pureza espiritual, claridad y nobleza.
+            </li>
+            <li>
+              <strong>Negro (Heuk):</strong> Representa el Norte, la tortuga negra y el invierno.
+              Simboliza profundidad, sabiduría y el agua que todo lo sustenta.
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TÉCNICA Y APLICACIÓN -->
+    <section class="seccion" aria-labelledby="titulo-tecnica">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-tecnica" style="color: var(--amarillo);">Técnica y Aplicación</h2>
+        <div class="contenedor-flex">
+          <div class="col-texto">
+            <div class="contenido-destacado" style="border-left-color: var(--morado);">
+              <h3 style="color: var(--morado);">Proceso de aplicación</h3>
+              <ul class="lista-decorada">
+                <li>Preparación de la superficie con capas de base</li>
+                <li>Trazado de patrones geométricos y naturales</li>
+                <li>Aplicación de pigmentos naturales en capas sucesivas</li>
+                <li>Motivos de nubes, flores de loto, dragones y fénix</li>
+                <li>Acabado con barniz protector natural</li>
+              </ul>
+            </div>
+            <div class="contenido-destacado" style="border-left-color: var(--naranja);">
+              <h3 style="color: var(--naranja);">Función doble</h3>
+              <p>
+                El Dancheong no es solo decoración: los pigmentos minerales y vegetales forman
+                una capa protectora que repele insectos, sella la madera contra la humedad y
+                retrasa la combustión. Un edificio con Dancheong bien conservado puede durar
+                varios siglos más que uno sin tratamiento.
+              </p>
+            </div>
+          </div>
+          <div class="col-imagen">
+            <img
+              src="imagenes/pexels-wwarby-19716548.jpg"
+              alt="Vista en detalle de vigas de madera pintadas con patrones florales rojos y verdes del sistema decorativo Dancheong en un templo coreano"
+              loading="lazy"
+              width="600" height="400"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2026 <strong>Ecos de la Arquitectura Coreana</strong>· Proyecto educativo sobre patrimonio cultural</p>
+  </footer>
+
+</body>
+</html>

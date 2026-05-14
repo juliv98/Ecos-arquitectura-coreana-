@@ -1,0 +1,119 @@
+<!-- Nombre: Juliana Volveras Amaya -->
+<!-- Grupo: 213025_14 -->
+<!-- Curso: Programación web -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Ecos de la Arquitectura Coreana — Explora el patrimonio cultural de Corea del Sur a través de sus palacios, templos y viviendas tradicionales." />
+  <title>Ecos de la Arquitectura Coreana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header role="banner">
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <nav class="nav-principal" aria-label="Navegación principal">
+      <a href="index.html" class="activo" aria-current="page">Inicio</a>
+      <a href="palacios.html">Palacios</a>
+      <a href="templos.html">Templos</a>
+      <a href="hanok.html">Hanok</a>
+      <a href="dancheong.html">Dancheong</a>
+    </nav>
+
+    <div class="hero">
+      <div class="hero-contenido">
+        <h1>Ecos de la Arquitectura Coreana</h1>
+        <p class="subtitulo">Un viaje a través de la historia, la naturaleza y el diseño</p>
+        <a href="#contenido-principal" class="boton-hero" aria-label="Explorar el patrimonio coreano">Explorar</a>
+        <a href="palacios.html" class="boton-hero secundario" aria-label="Ir directamente a la sección de palacios">Ver Palacios</a>
+      </div>
+    </div>
+  </header>
+
+  <main id="contenido-principal">
+    <section id="patrimonio" class="seccion" aria-labelledby="titulo-patrimonio">
+      <div class="contenedor estrecho">
+        <h2 class="titulo-seccion" id="titulo-patrimonio">Patrimonio Arquitectónico Coreano</h2>
+        <p class="intro">El patrimonio arquitectónico coreano representa la identidad histórica y cultural de Corea del Sur a través de sus templos, palacios y viviendas tradicionales. Estas construcciones reflejan una profunda conexión con la naturaleza, el equilibrio estético y los valores filosóficos del país.</p>
+        <p class="intro">En este sitio podrás explorar sus principales características, su significado cultural y los lugares más representativos que forman parte de este legado único en el mundo.</p>
+      </div>
+    </section>
+
+    <section id="explorar" class="seccion fondo-alt" aria-labelledby="titulo-explorar">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-explorar" style="color: var(--amarillo);">¿Qué deseas explorar?</h2>
+        <p class="intro">Selecciona una categoría para conocer en detalle cada aspecto del patrimonio arquitectónico coreano.</p>
+
+        <div class="nav-cards" role="list">
+          <article class="nav-card" role="listitem">
+            <a href="palacios.html" aria-label="Ir a la sección de Palacios coreanos">
+              <img src="imagenes/pexels-luna-groothedde-3862519-12353739.jpg" alt="Salón del Trono del Palacio Gyeongbokgung con visitantes subiendo la escalinata de piedra hacia la entrada principal, con montañas al fondo" loading="lazy">
+              <div class="nav-card-contenido">
+                <h3 style="color: var(--naranja);">Palacios</h3>
+                <p>Descubre los grandes complejos palaciegos de la dinastía Joseon, centros del poder político y cultural de Corea.</p>
+                <span class="etiqueta" style="color: var(--naranja);">Explorar →</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="nav-card" role="listitem">
+            <a href="templos.html" aria-label="Ir a la sección de Templos budistas">
+              <img src="imagenes/pexels-nezaket-2150013581-33659841.jpg" alt="Escalinata de piedra de dos tramos que conduce a la puerta principal del Templo Bulguksa, flanqueada por muros de roca bajo cielo azul" loading="lazy">
+              <div class="nav-card-contenido">
+                <h3 style="color: var(--verde);">Templos</h3>
+                <p>Explora los templos budistas que han preservado la espiritualidad y el arte arquitectónico coreano por siglos.</p>
+                <span class="etiqueta" style="color: var(--verde);">Explorar →</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="nav-card" role="listitem">
+            <a href="hanok.html" aria-label="Ir a la sección de vivienda tradicional Hanok">
+              <img src="imagenes/namsangol-hanok-village.jpg" alt="Entrada de una casa Hanok tradicional con tejado curvo de tejas grises y muro de piedra natural en la aldea de Namsangol, Seúl" loading="lazy">
+              <div class="nav-card-contenido">
+                <h3 style="color: var(--azul);">Hanok</h3>
+                <p>Conoce la vivienda tradicional coreana, diseñada para vivir en armonía con el clima y la naturaleza.</p>
+                <span class="etiqueta" style="color: var(--azul);">Explorar →</span>
+              </div>
+            </a>
+          </article>
+
+          <article class="nav-card" role="listitem">
+            <a href="dancheong.html" aria-label="Ir a la sección sobre decoración Dancheong">
+              <img src="imagenes/pexels-wwarby-19716548.jpg" alt="Vista en detalle de vigas de madera pintadas con patrones florales rojos y verdes del sistema decorativo Dancheong en un templo coreano" loading="lazy">
+              <div class="nav-card-contenido">
+                <h3 style="color: var(--morado);">Dancheong</h3>
+                <p>Descubre el sistema decorativo de cinco colores aplicado sobre la madera de templos y palacios tradicionales.</p>
+                <span class="etiqueta" style="color: var(--morado);">Explorar →</span>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="mapa" class="seccion" aria-labelledby="titulo-mapa">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-mapa" style="color: var(--amarillo);">Ubicación</h2>
+        <p class="intro">Palacio Gyeongbokgung, uno de los sitios más representativos del patrimonio arquitectónico coreano, ubicado en Seúl.</p>
+        <div class="mapa-contenedor">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3162.9192440741374!2d126.97663401576337!3d37.579617979807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca2f4f5be9d2b%3A0x88cbfc8fb3879e22!2sGyeongbokgung%20Palace!5e0!3m2!1ses!2ses!4v1234567890" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Mapa del Palacio Gyeongbokgung en Seúl, Corea del Sur" aria-label="Mapa interactivo del Palacio Gyeongbokgung en Seúl"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2026 <strong>Ecos de la Arquitectura Coreana</strong>· Proyecto educativo sobre patrimonio cultural</p>
+  </footer>
+   <script src="script.js"></script>
+
+</body>
+</html>

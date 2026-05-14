@@ -1,0 +1,150 @@
+<!-- Nombre: Juliana Volveras Amaya -->
+<!-- Grupo: 213025_14 -->
+<!-- Curso: Programación web -->
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hanok — La vivienda tradicional coreana, diseñada para vivir en armonía con la naturaleza y adaptarse al clima." />
+  <title>Hanok — Ecos de la Arquitectura Coreana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header role="banner">
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <nav class="nav-principal" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="palacios.html">Palacios</a>
+      <a href="templos.html">Templos</a>
+      <a href="hanok.html" class="activo" aria-current="page">Hanok</a>
+      <a href="dancheong.html">Dancheong</a>
+    </nav>
+
+    <div class="hero-sub" style="background-image: url('imagenes/namsangol-hanok-village.jpg');">
+      <div class="hero-sub-contenido">
+        <h1>Hanok</h1>
+        <p>La vivienda tradicional coreana en armonía con la naturaleza</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Ruta de navegación">
+    <div class="contenedor">
+      <a href="index.html">Inicio</a>
+      <span aria-hidden="true">›</span>
+      <em>Hanok</em>
+    </div>
+  </nav>
+
+  <main id="contenido-principal">
+
+    <section class="seccion" aria-labelledby="titulo-que-es-hanok">
+      <div class="contenedor estrecho">
+        <h2 class="titulo-seccion" id="titulo-que-es-hanok" style="color: var(--azul);">¿Qué es un Hanok?</h2>
+        <p class="intro">
+          El Hanok es la vivienda tradicional coreana, desarrollada a lo largo de siglos para adaptarse
+          al clima continental de Corea: veranos calurosos y húmedos, inviernos fríos y secos. Su diseño
+          refleja principios filosóficos de equilibrio y respeto por la naturaleza.
+        </p>
+      </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS Y MATERIALES -->
+    <section class="seccion fondo-alt" aria-labelledby="titulo-caract-hanok">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-caract-hanok" style="color: var(--azul);">Diseño y Materiales</h2>
+        <div class="contenedor-flex">
+          <div class="col-texto">
+
+            <div class="contenido-destacado" style="border-left-color: var(--azul);">
+              <h3 style="color: var(--azul);">Características principales</h3>
+              <ul class="lista-decorada">
+                <li>Techos curvos de tejas (giwa) que dirigen el agua de lluvia</li>
+                <li>Patios interiores abiertos (madang) como espacio de vida</li>
+                <li>Estructura elevada del suelo para ventilación y protección</li>
+                <li>Espacios interiores flexibles y multifuncionales</li>
+                <li>Ventanas y puertas de papel tradicional (hanji) que regula la luz</li>
+              </ul>
+              <p>El diseño permite ventilación cruzada en verano y conservación del calor en invierno.</p>
+            </div>
+
+            <div class="contenido-destacado" style="border-left-color: var(--rosa);">
+              <h3 style="color: var(--rosa);">Materiales naturales</h3>
+              <ul class="lista-decorada">
+                <li>Madera como estructura principal y resistente</li>
+                <li>Piedra para bases, cimientos y muros exteriores</li>
+                <li>Tejas de arcilla cocida para los tejados curvos</li>
+                <li>Papel hanji en puertas, ventanas y divisores interiores</li>
+                <li>Tierra y arcilla en paredes y suelos interiores</li>
+              </ul>
+              <p>Estos materiales permiten que la vivienda "respire" y se integre con el entorno.</p>
+            </div>
+
+          </div>
+          <div class="col-imagen">
+            <img
+              src="imagenes/namsangol-hanok-village.jpg"
+              alt="Entrada de una casa Hanok tradicional con tejado curvo de tejas grises y muro de piedra natural en la aldea de Namsangol, Seúl"
+              loading="lazy"
+              width="600" height="420"
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ONDOL -->
+    <section class="seccion" aria-labelledby="titulo-ondol">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-ondol" style="color: var(--amarillo);">El Sistema Ondol</h2>
+        <div class="contenedor-flex">
+          <div class="col-imagen">
+            <img
+              src="imagenes/pexels-g-p-1114450785-29404706.jpg"
+              alt="Esquina del tejado de un pabellón coreano tradicional con tejas grises curvas y decoraciones florales pintadas bajo un cielo azul despejado"
+              loading="lazy"
+              width="600" height="400"
+            >
+          </div>
+          <div class="col-texto">
+            <div class="contenido-destacado" style="border-left-color: var(--amarillo);">
+              <h3 style="color: var(--amarillo);">Calefacción por suelo radiante</h3>
+              <p>
+                El <strong>Ondol</strong> es el sistema de calefacción por suelo radiante desarrollado en Corea
+                hace más de 2,000 años. El calor del fuego de la cocina se conduce bajo el suelo a través
+                de canales de piedra, calentando toda la superficie habitable.
+              </p>
+              <p style="margin-top: 1rem; color: var(--texto-gris);">
+                Este ingenioso sistema es el antecedente directo de los sistemas de calefacción radiante
+                modernos, y sigue usándose en hogares coreanos contemporáneos.
+              </p>
+            </div>
+            <div class="contenido-destacado" style="border-left-color: var(--morado);">
+              <h3 style="color: var(--morado);">Distribución espacial</h3>
+              <ul class="lista-decorada">
+                <li>Sala central (maru): espacio social y de paso</li>
+                <li>Habitaciones laterales con suelo Ondol</li>
+                <li>Cocina (bueok) con el hogar que alimenta el Ondol</li>
+                <li>Patio interior (madang) como extensión de la vida doméstica</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2026 <strong>Ecos de la Arquitectura Coreana</strong>· Proyecto educativo sobre patrimonio cultural</p>
+  </footer>
+
+</body>
+</html>

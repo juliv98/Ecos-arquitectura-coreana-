@@ -1,0 +1,124 @@
+<!-- Nombre: Juliana Volveras Amaya -->
+<!-- Grupo: 213025_14 -->
+<!-- Curso: Programación web -->
+ 
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Palacios de Corea del Sur — Conoce Gyeongbokgung, Changdeokgung y Deoksugung, los grandes complejos palaciegos de la dinastía Joseon." />
+  <title>Palacios — Ecos de la Arquitectura Coreana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header role="banner">
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <nav class="nav-principal" aria-label="Navegación principal">
+      <a href="index.html">Inicio</a>
+      <a href="palacios.html" class="activo" aria-current="page">Palacios</a>
+      <a href="templos.html">Templos</a>
+      <a href="hanok.html">Hanok</a>
+      <a href="dancheong.html">Dancheong</a>
+    </nav>
+
+    <div class="hero-sub" style="background-image: url('imagenes/pexels-daejeung-6427161.jpg');">
+      <div class="hero-sub-contenido">
+        <h1>Palacios de Corea del Sur</h1>
+        <p>Centros del poder, el arte y la vida ceremonial de la dinastía Joseon</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="breadcrumb" aria-label="Ruta de navegación">
+    <div class="contenedor">
+      <a href="index.html">Inicio</a>
+      <span aria-hidden="true">›</span>
+      <em>Palacios</em>
+    </div>
+  </nav>
+
+  <main id="contenido-principal">
+    <section class="seccion" aria-labelledby="titulo-intro-palacios">
+      <div class="contenedor estrecho">
+        <h2 class="titulo-seccion" id="titulo-intro-palacios" style="color: var(--naranja);">Los Grandes Palacios</h2>
+        <p class="intro">Los palacios de Corea del Sur son testimonios arquitectónicos de la dinastía Joseon (1392–1897). Diseñados siguiendo principios del confucianismo y la geomancia coreana (Pungsu), cada uno refleja una profunda conexión entre el poder, la naturaleza y el cosmos.</p>
+      </div>
+    </section>
+
+    <section class="seccion fondo-alt" aria-labelledby="titulo-lista-palacios">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-lista-palacios" style="color: var(--naranja);">Principales Palacios</h2>
+        <div class="grid-tarjetas">
+          <article class="tarjeta">
+            <img src="imagenes/pexels-luna-groothedde-3862519-12353739.jpg" alt="Salón del Trono del Palacio Gyeongbokgung con visitantes subiendo la escalinata de piedra hacia la entrada principal, con montañas al fondo" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Palacio Gyeongbokgung</h3>
+              <p><strong style="color:var(--texto-blanco)">Seúl — Fundado en 1395</strong></p>
+              <p>Construido al inicio de la dinastía Joseon, fue la residencia principal de la familia real y el centro político del país. Su nombre significa "palacio radiante de gran felicidad".</p>
+              <p>Destacan sus amplios patios de granito, el majestuoso Salón del Trono (Geunjeongjeon) y el pabellón Gyeonghoeru sobre un estanque artificial. La disposición sigue los principios geománticos de Pungsu, con las montañas al norte como protección.</p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <img src="imagenes/pexels-burak-2148400120-33795178.jpg" alt="Salón principal del Palacio Changdeokgung visto desde el patio con visitantes subiendo la escalinata de piedra en un día nublado" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Palacio Changdeokgung</h3>
+              <p><strong style="color:var(--texto-blanco)">Seúl — Patrimonio UNESCO</strong></p>
+              <p>Famoso por su "Jardín Secreto" (Huwon), diseñado para integrarse de manera orgánica con el paisaje natural. Fue declarado Patrimonio de la Humanidad por la UNESCO en 1997.</p>
+              <p>A diferencia de otros palacios más formales, Changdeokgung se adapta a la topografía del terreno en lugar de modificarla, mostrando una arquitectura en armonía total con el entorno.</p>
+            </div>
+          </article>
+
+          <article class="tarjeta">
+            <img src="imagenes/architecture-building-changdeokgung-palace-seoul-city.jpg" alt="Fachada principal del Palacio Changdeokgung con dos niveles de tejado curvo verde y rojo, decorada con caracteres chinos dorados y escalinata de piedra" loading="lazy">
+            <div class="tarjeta-contenido">
+              <h3>Palacio Deoksugung</h3>
+              <p><strong style="color:var(--texto-blanco)">Seúl — Siglo XIX</strong></p>
+              <p>Único complejo que combina arquitectura tradicional coreana con edificios de estilo occidental, construidos durante la modernización del país a finales del siglo XIX.</p>
+              <p>Esta mezcla lo convierte en símbolo de una época de transición histórica profunda. Es uno de los palacios más accesibles de Seúl, rodeado hoy de rascacielos modernos.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="seccion" aria-labelledby="titulo-arq-palacios">
+      <div class="contenedor">
+        <h2 class="titulo-seccion" id="titulo-arq-palacios" style="color: var(--amarillo);">Características Arquitectónicas</h2>
+        <div class="contenedor-flex">
+          <div class="col-texto">
+            <div class="contenido-destacado" style="border-left-color: var(--naranja);">
+              <h3 style="color: var(--naranja);">Principios de diseño</h3>
+              <ul class="lista-decorada">
+                <li>Orientación norte-sur siguiendo el Pungsu (geomancia coreana)</li>
+                <li>Jerarquía espacial: zonas ceremoniales, administrativas y residenciales</li>
+                <li>Uso de madera, piedra y tejas de arcilla como materiales principales</li>
+                <li>Patios amplios para ceremonias y reuniones oficiales</li>
+                <li>Integración con el paisaje natural circundante</li>
+              </ul>
+            </div>
+            <div class="contenido-destacado" style="border-left-color: var(--azul);">
+              <h3 style="color: var(--azul);">Simbolismo</h3>
+              <p>Cada elemento arquitectónico tiene un significado: el número de escalones, la dirección de las puertas, los colores del Dancheong. Los palacios no eran solo residencias, sino representaciones físicas del orden cósmico y social.</p>
+            </div>
+          </div>
+          <div class="col-imagen">
+            <img src="imagenes/pexels-daejeung-6427161.jpg" alt="Vista frontal de las torres superpuestas del Palacio Gyeongbokgung con tejados curvos de tejas grises y decoraciones verdes y rojas" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer role="contentinfo">
+    <p>© 2026 <strong>Ecos de la Arquitectura Coreana</strong>· Proyecto educativo sobre patrimonio cultural</p>
+  </footer>
+
+</body>
+</html>
